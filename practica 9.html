@@ -1,0 +1,385 @@
+<!--<html>
+
+<body>
+
+    <h2>Mi Primera vez metiendo mano en Java</h2>
+   <script>
+       document.write('Gilbert Santos')
+   </script>
+       <br>
+    <script>
+        document.write(17);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practica 3</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  var nombre= 'Gilbert Santos';
+  var sueldo=50000;
+  document.write(nombre);
+  document.write('<br>');
+  document.write(sueldo); 
+  document.write('<br>');
+</script>
+
+</body>
+</html>
+
+<html>
+
+<head>
+    <title>Practica 4</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nombre;
+        var correo;
+        nombre = prompt('Ingrese su nombre:', '');
+        correo = prompt('Ingrese su correo:', '');
+        document.write('Hola ');
+        document.write(nombre);
+        document.write('<br>');
+        document.write('Tu correo es:');
+        document.write(correo);
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica 5</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var valor1;
+        valor1 = prompt('Ingrese un numero para calcular el perimetro', '');
+        var perimetro = valor1 * 4;
+        document.write('El perimetro es:');
+        document.write(perimetro);
+        document.write('<br>');
+        var valor2;
+        var valor3;
+        var valor4;
+        var valor5;
+        valor2 = prompt('Ingresa un numero:', '');
+        valor3 = prompt('Ingresa un numero:', '');
+        valor4 = prompt('Ingresa un numero:', '');
+        valor5 = prompt('Ingrese un numero:', '');
+        var suma = parseInt(valor2) + parseInt(valor3);
+        var producto = valor4 * valor5;
+        document.write('La suma es:')
+        document.write(suma);
+        document.write('<br>');
+        document.write('El producto es:');
+        document.write(producto);
+
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica 6</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        var nombre;
+        var nota;
+        var nota2;
+        var nota3;
+        nombre = prompt('Ingrese nombre:', '');
+        nota = parseInt(prompt('Ingrese su nota:', ''));
+        nota2 = parseInt(prompt('Ingrese su nota:', ''));
+        nota3 = parseInt(prompt('Ingrese su nota:', ''));
+        suma = nota + nota2 + nota3;
+        promedio = suma / 3;
+        if (nota, nota2, nota3 >= 7) {
+            document.write(nombre + ' esta aprobado con un ' + nota);
+        }
+    </script>
+    <br>
+    <br>
+    <br>
+    <script>
+        var nombre;
+        var clave;
+        var clave2;
+        nombre = prompt('Ingrese nombre:', '');
+        nota = parseInt(prompt('Ingrese su clave :', ''));
+        nota2 = parseInt(prompt('Ingrese nuevamente su clave:', ''));
+        if (clave, clave2 == clave) {
+            document.write(nombre + ' La clave se ha cambiado correctamente ');
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practica 7</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+    
+    <br>
+    <br>
+    <script>
+        var num1,num2;
+        num1=prompt('Ingrese el primer número:','');
+        num2=prompt('Ingrese el segundo número:','');
+        num1=parseInt(num1);
+        num2=parseInt(num2);
+        if (num1>num2)
+        {
+           var suma = parseInt(num1) + parseInt(num2);
+           var resta = parseInt(num1) - parseInt(num2);
+          document.write('Su suma es '+ suma);
+          document.write('<br>');
+          document.write('Su resta es '+ resta);
+        }
+        else
+        {
+           var mult = parseInt(num1) * parseInt(num2);
+           var div = parseInt(num1) / parseInt(num2);
+          document.write('Su producto es '+ mult);
+          document.write('<br>');
+          document.write('Su division es '+ div);
+        }
+      </script> 
+<br>
+<br>
+    <script>
+        var nota1,nota2,nota3;
+        nota1=prompt('Ingrese su primera nota:','');
+        nota2=prompt('Ingrese su segunda nota:','');
+        nota3=prompt('Ingrese su tercera nota:','');
+        suma= parseInt(nota1) + parseInt(nota2) + parseInt(nota3);
+        promedio= suma / 3;
+        if (promedio >= 4)
+        {
+          document.write('Regular');
+        }
+        else
+        {
+          document.write('Reprobado');
+        }
+      </script>
+      <br>
+      <br>
+      <script>
+        var num;
+        num=parseInt(prompt('Ingrese un numero:',''));
+        if (num >= 9)
+        {
+          document.write('El número tiene 2 digito');
+        }
+        else
+        {
+            document.write('El número tiene 1 digito');
+        }
+      </script>
+   
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica 8</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var num1, num2, num3;
+        num1 = prompt('Introduzca el primer valor:', '');
+        num2 = prompt('Introduzca el segundo valor:', '');
+        num3 = prompt('Introduzca el tercer valor:', '');
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+        num3 = parseInt(num3);
+        if (num1 > num2 && num1 > num3) {
+            document.write(num1);
+        }
+        else {
+            if (num2 > num1 && num2 > num3) {
+                document.write(num2);
+            }
+            else {
+                document.write(num3);
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <script>
+        var num1, num2, num3;
+        num1 = prompt('Introduzca un numero:', '');
+        num1 = parseInt(num1);
+        if (num1 > 0) {
+            document.write("El numero es positivo");
+        }
+        else {
+            if (num1 == 0) {
+                document.write("Es igual a cero");
+            }
+            else {
+                document.write("El numero es negativo negativo");
+            }
+        }
+    </script>
+    <br>
+    <br>
+    <script>
+        var num1;
+        num1 = prompt('Introduzca un numero:', '');
+        num1 = parseInt(num1);
+        if (num1 < 10) {
+            document.write("El numero es de una cifra");
+        }
+        else {
+            if (num1 < 99) {
+                document.write("El numero es de dos cifras");
+            }
+            else {
+                document.write("El numero es de tres cifras");
+            }
+        }
+    </script>
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practica 9</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        var dia;
+        var mes;
+        dia = prompt('Ingrese la fecha de hoy:', '');
+        mes = prompt('Ingrese el mes:', '');
+        dia = parseInt(dia);
+        mes = parseInt(mes);
+        if (dia == 25 & mes == 12) {
+            document.write('Hoy es el dia de navidad');
+        }
+        elses
+        {
+            document.write('Hoy no es navidad');
+        }
+    </script>
+    <br>
+    <br>
+    <script>
+        var valor1;
+        var valor2;
+        var valor3;
+        valor1 = prompt('Ingrese un numero:', '');
+        valor2 = prompt('Ingrese el mismo numero:', '');
+        valor3 = prompt('Ingrese el mismo numero:', '');
+        valor1 = parseInt(valor1);
+        valor2 = parseInt(valor2);
+        valor3 = parseInt(valor3);
+        if (valor1 == valor2 & valor1 == valor3) {
+            operacion = parseInt(valor1) + parseInt(valor2);
+            mult = operacion * parseInt(valor3);
+            document.write(mult);
+        }
+        else {
+            document.write('Lo sentimos lo numeros no son iguales...');
+        }
+    </script>
+    <br>
+    <br>
+    <script>
+        var numero1;
+        var numero2;
+        var numero3;
+        numero1=prompt('Ingrese un numero:','');
+        numero2=prompt('Ingrese un numero:','');
+        numero3=prompt('Ingrese un numero:','');
+        numero1=parseInt(numero1);
+        numero2=parseInt(numero2);
+        numero3=parseInt(numero3);
+        if (numero1<10 && numero2<10 && numero3<10)
+          {
+            document.write('Todos los números son menores que 10'); 
+          }
+          else
+          {
+              document.write('Lo sentimos uno de los numeros es mayor a 10'); 
+          }
+      </script>
+</body>
+<br>
+<br>
+<script>
+    var numero1;
+    var numero2;
+    var numero3;
+    numero1=prompt('Ingrese X:','');
+    numero2=prompt('Ingrese Y:','');
+    numero1=parseInt(numero1);
+    numero2=parseInt(numero2);
+    if (numero1>0 && numero2>0)
+      {
+        document.write('Primer cuadrante'); 
+      }
+      else
+      {
+        if (numero1<0 && numero2>0)
+        {
+          document.write('Segundo cuadrante'); 
+        }
+        else{
+          if (numero1<0 && numero2<0){
+            document.write('Tercer cuadrante'); 
+          }
+          else{
+            if (numero1>0 && numero2<0)
+            {
+              document.write('Cuarto cuadrante'); 
+            }
+          }
+        }
+      }
+  </script> 
+  
+
+</html>
